@@ -1,0 +1,29 @@
+.form {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input[type=text] {
+    height: 40px;
+    padding: 0 20px;
+    font-size: 20px;
+    border: 1px solid #cccccc;
+    min-width: 80%;
+}
+
+.form button[type=submit] {
+    border: none;
+    height: 40px;
+    width: 40px;
+    background-color: #f04c64;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form button:hover {
+    opacity: 0.9;
+}
